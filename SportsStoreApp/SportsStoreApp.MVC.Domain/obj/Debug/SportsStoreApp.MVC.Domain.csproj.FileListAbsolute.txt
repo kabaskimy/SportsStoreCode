@@ -1,0 +1,9 @@
+F:\Code\microsoft\CSharp\SportsStoreApp\SportsStoreApp\SportsStoreApp.MVC.Domain\bin\Debug\SportsStoreApp.MVC.Domain.dll
+F:\Code\microsoft\CSharp\SportsStoreApp\SportsStoreApp\SportsStoreApp.MVC.Domain\bin\Debug\SportsStoreApp.MVC.Domain.pdb
+F:\Code\microsoft\CSharp\SportsStoreApp\SportsStoreApp\SportsStoreApp.MVC.Domain\obj\Debug\SportsStoreApp.MVC.Domain.csprojResolveAssemblyReference.cache
+F:\Code\microsoft\CSharp\SportsStoreApp\SportsStoreApp\SportsStoreApp.MVC.Domain\obj\Debug\SportsStoreApp.MVC.Domain.dll
+F:\Code\microsoft\CSharp\SportsStoreApp\SportsStoreApp\SportsStoreApp.MVC.Domain\obj\Debug\SportsStoreApp.MVC.Domain.pdb
+F:\Code\microsoft\CSharp\SportsStoreApp\SportsStoreApp\SportsStoreApp.MVC.Domain\bin\Debug\SportsStoreApp.MVC.Domain.dll.config
+F:\Code\microsoft\CSharp\SportsStoreApp\SportsStoreApp\SportsStoreApp.MVC.Domain\bin\Debug\EntityFramework.dll
+F:\Code\microsoft\CSharp\SportsStoreApp\SportsStoreApp\SportsStoreApp.MVC.Domain\bin\Debug\EntityFramework.xml
+F:\Code\microsoft\CSharp\SportsStoreApp\SportsStoreApp\SportsStoreApp.MVC.Domain\bin\Debug\zh-Hans\EntityFramework.resources.dll
