@@ -7,6 +7,8 @@ using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
 using SportsStoreApp.MVC.WebUI.Infrastructure;
+using SportsStoreApp.MVC.Domain.Entities;
+using SportsStoreApp.MVC.WebUI.Binders;
 
 namespace SportsStoreApp.MVC.WebUI
 {
@@ -24,6 +26,7 @@ namespace SportsStoreApp.MVC.WebUI
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
             ControllerBuilder.Current.SetControllerFactory(new NinjectControllerFactory());
+            ModelBinders.Binders.Add(typeof(Cart), new CartModelBinder());
         }
     }
 }

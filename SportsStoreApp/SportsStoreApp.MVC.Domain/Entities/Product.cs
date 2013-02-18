@@ -8,7 +8,7 @@ namespace SportsStoreApp.MVC.Domain.Entities
 {
     public class Product
     {
-        public int ProductID { get; set; }
+        public int ProductId { get; set; }
         public string Name { get; set; }
         public string Description { set; get; }
         public decimal Price { set; get; }
