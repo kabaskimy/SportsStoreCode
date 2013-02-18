@@ -7,3 +7,12 @@ F:\Code\microsoft\CSharp\SportsStoreApp\SportsStoreApp\SportsStoreApp.MVC.Domain
 F:\Code\microsoft\CSharp\SportsStoreApp\SportsStoreApp\SportsStoreApp.MVC.Domain\bin\Debug\EntityFramework.dll
 F:\Code\microsoft\CSharp\SportsStoreApp\SportsStoreApp\SportsStoreApp.MVC.Domain\bin\Debug\EntityFramework.xml
 F:\Code\microsoft\CSharp\SportsStoreApp\SportsStoreApp\SportsStoreApp.MVC.Domain\bin\Debug\zh-Hans\EntityFramework.resources.dll
+F:\CodeProject\Git_Source_Code\CSharp\MVC\SportsStore\SportsStore\SportsStoreApp\SportsStoreApp\SportsStoreApp.MVC.Domain\bin\Debug\SportsStoreApp.MVC.Domain.dll.config
+F:\CodeProject\Git_Source_Code\CSharp\MVC\SportsStore\SportsStore\SportsStoreApp\SportsStoreApp\SportsStoreApp.MVC.Domain\bin\Debug\SportsStoreApp.MVC.Domain.dll
+F:\CodeProject\Git_Source_Code\CSharp\MVC\SportsStore\SportsStore\SportsStoreApp\SportsStoreApp\SportsStoreApp.MVC.Domain\bin\Debug\SportsStoreApp.MVC.Domain.pdb
+F:\CodeProject\Git_Source_Code\CSharp\MVC\SportsStore\SportsStore\SportsStoreApp\SportsStoreApp\SportsStoreApp.MVC.Domain\bin\Debug\EntityFramework.dll
+F:\CodeProject\Git_Source_Code\CSharp\MVC\SportsStore\SportsStore\SportsStoreApp\SportsStoreApp\SportsStoreApp.MVC.Domain\bin\Debug\EntityFramework.xml
+F:\CodeProject\Git_Source_Code\CSharp\MVC\SportsStore\SportsStore\SportsStoreApp\SportsStoreApp\SportsStoreApp.MVC.Domain\bin\Debug\zh-Hans\EntityFramework.resources.dll
+F:\CodeProject\Git_Source_Code\CSharp\MVC\SportsStore\SportsStore\SportsStoreApp\SportsStoreApp\SportsStoreApp.MVC.Domain\obj\Debug\SportsStoreApp.MVC.Domain.csprojResolveAssemblyReference.cache
+F:\CodeProject\Git_Source_Code\CSharp\MVC\SportsStore\SportsStore\SportsStoreApp\SportsStoreApp\SportsStoreApp.MVC.Domain\obj\Debug\SportsStoreApp.MVC.Domain.dll
+F:\CodeProject\Git_Source_Code\CSharp\MVC\SportsStore\SportsStore\SportsStoreApp\SportsStoreApp\SportsStoreApp.MVC.Domain\obj\Debug\SportsStoreApp.MVC.Domain.pdb

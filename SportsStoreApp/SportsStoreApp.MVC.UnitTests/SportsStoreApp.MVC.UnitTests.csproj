@@ -45,9 +45,6 @@
     <Reference Include="SportsStoreApp.MVC.Domain">
       <HintPath>..\SportsStoreApp.MVC.Domain\bin\Debug\SportsStoreApp.MVC.Domain.dll</HintPath>
     </Reference>
-    <Reference Include="SportsStoreApp.MVC.WebUI">
-      <HintPath>..\SportsStoreApp.MVC.WebUI\bin\SportsStoreApp.MVC.WebUI.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
@@ -79,6 +76,12 @@
   <ItemGroup>
     <None Include="packages.config" />
     <None Include="Scripts\jquery-1.9.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SportsStoreApp.MVC.WebUI\SportsStoreApp.MVC.WebUI.csproj">
+      <Project>{8818c906-3fcd-4e1b-8ec6-9304a53fa0c9}</Project>
+      <Name>SportsStoreApp.MVC.WebUI</Name>
+    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
