@@ -16,5 +16,25 @@ namespace SportsStoreApp.MVC.Domain.Concrete
         {
             get { return context.Products; }
         }
+
+        public void SaveProduct(Product product)
+        {
+            if (product.ProductId == 0)
+            {
+                context.Products.Add(product);
+            }
+            else
+            {
+                Product entity = context.Products.FirstOrDefault(m => m.ProductId == product.ProductId);
+                if (entity != null)
+                {
+                    entity.Name = product.Name;
+                    entity.Category = product.Category;
+                    entity.Price = product.Price;
+                    entity.Description = product.Description;
+                }
+            }
+            context.SaveChanges();
+        }
     }
 }

@@ -1,0 +1,14 @@
+﻿@model SportsStoreApp.MVC.Domain.Entities.Product
+
+@{
+    ViewBag.Title = "Admin:Edit "+@Model.Name;
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>@Model.Name</h1>
+@using (Html.BeginForm("Edit","Admin"))
+{
+    @Html.EditorForModel()
+    <input type="submit" value="Save"/>
+    @Html.ActionLink("Cancel and return to List","Index")
+}
