@@ -26,5 +26,10 @@ namespace SportsStoreApp.MVC.Domain.Entities
 
         [Required(ErrorMessage="Please specify a category")]
         public string Category { set; get; }
+
+        public byte[] ImageData { set; get; }
+
+        [HiddenInput(DisplayValue = false)]
+        public string ImageMimeType { set; get; }
     }
 }

@@ -32,6 +32,8 @@ namespace SportsStoreApp.MVC.Domain.Concrete
                     entity.Category = product.Category;
                     entity.Price = product.Price;
                     entity.Description = product.Description;
+                    entity.ImageData = product.ImageData;
+                    entity.ImageMimeType = product.ImageMimeType;
                 }
             }
             context.SaveChanges();

@@ -7,7 +7,6 @@ using SportsStoreApp.MVC.Domain.Abstract;
 using SportsStoreApp.MVC.Domain.Entities;
 using System.Net;
 using System.Net.Mail;
-using System.Text;
 
 namespace SportsStoreApp.MVC.Domain.Concrete
 {

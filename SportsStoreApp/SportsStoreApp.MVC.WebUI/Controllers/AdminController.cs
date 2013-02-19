@@ -8,6 +8,7 @@ using SportsStoreApp.MVC.Domain.Entities;
 
 namespace SportsStoreApp.MVC.WebUI.Controllers
 {
+    [Authorize]
     public class AdminController : Controller
     {
         //
@@ -31,10 +32,16 @@ namespace SportsStoreApp.MVC.WebUI.Controllers
         }
 
         [HttpPost]
-        public ActionResult Edit(Product product)
+        public ActionResult Edit(Product product,HttpPostedFileBase Image)
         {
             if (ModelState.IsValid)
             {
+                if (Image != null)
+                {
+                    product.ImageMimeType = Image.ContentType;
+                    product.ImageData = new byte[Image.ContentLength];
+                    Image.InputStream.Read(product.ImageData, 0, Image.ContentLength);
+                }
                 repository.SaveProduct(product);
                 TempData["message"] = string.Format("{0} has been saved !", product.Name);
                 return RedirectToAction("Index");

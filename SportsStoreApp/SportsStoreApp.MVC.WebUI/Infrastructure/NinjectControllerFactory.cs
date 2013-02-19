@@ -10,6 +10,9 @@ using SportsStoreApp.MVC.Domain.Abstract;
 using SportsStoreApp.MVC.Domain.Concrete;
 using Moq;
 
+using SportsStoreApp.MVC.WebUI.Infrastructure.Abstract;
+using SportsStoreApp.MVC.WebUI.Infrastructure.Concrete;
+
 namespace SportsStoreApp.MVC.WebUI.Infrastructure
 {
     public class NinjectControllerFactory:DefaultControllerFactory
@@ -39,6 +42,7 @@ namespace SportsStoreApp.MVC.WebUI.Infrastructure
 
             EmailSetting emailSetting = new EmailSetting();
             ninjectKernel.Bind<IOrderProcessor>().To<EmailOrderProcessor>().WithConstructorArgument("setting", emailSetting);
+            ninjectKernel.Bind<IAuthProvider>().To<FormsAuthProvider>();
         }
     }
 }

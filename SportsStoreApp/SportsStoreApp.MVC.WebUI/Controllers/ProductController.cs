@@ -38,5 +38,18 @@ namespace SportsStoreApp.MVC.WebUI.Controllers
             return View(model);
         }
 
+        public FileContentResult GetImage(int ProductId)
+        {
+            Product product = repository.Products.FirstOrDefault(m => m.ProductId == ProductId);
+            if (product != null)
+            {
+                return File(product.ImageData, product.ImageMimeType);
+            }
+            else
+            {
+                return null;
+            }
+        }
+
     }
 }
