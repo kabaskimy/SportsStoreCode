@@ -36,6 +36,9 @@ namespace SportsStoreApp.MVC.WebUI.Infrastructure
             Mock<IProductRepository> mock = new Mock<IProductRepository>();
             mock.Setup(m => m.Products).Returns(list.AsQueryable());
             ninjectKernel.Bind<IProductRepository>().To<EFProductRepository>();
+
+            EmailSetting emailSetting = new EmailSetting();
+            ninjectKernel.Bind<IOrderProcessor>().To<EmailOrderProcessor>().WithConstructorArgument("setting", emailSetting);
         }
     }
 }
